@@ -73,21 +73,21 @@ The prediction results in `pred_result_cnn` folder are obtained by training the 
 You can run the demo according to following code:
 * AV-DRIVE
 
-`
+```
 python main.py --fundus_img_path data\AV-DRIVE\orig\1_image.png --pred_av_path data\AV-DRIVE\pred_result_cnn\1_pred_label.png --pred_v_path data\AV-DRIVE\pred_result_cnn\1_pred_vessel.png --opti_save_path data\AV-DRIVE\optim_result --H (290, 485) --Ks 1.
-`
+```
 
 * LES
 
-`
+```
 python main.py --fundus_img_path data\LES\orig\3_image.png --pred_av_path data\LES\pred_result_cnn\3_pred_label.png --pred_v_path data\LES\pred_result_cnn\3_pred_vessel.png --opti_save_path data\LES\optim_result --H (720, 803) --Ks 2.5
-`
+```
 
 * CY-BIT
 
-`
+```
 python main.py --fundus_img_path data\CY-BIT\orig\5126_image.png --pred_av_path data\CY-BIT\pred_result_cnn\5126_pred_label.png --pred_v_path data\CY-BIT\pred_result_cnn\5126_pred_vessel.png --opti_save_path data\CY-BIT\optim_result --H (745, 751) --Ks 2.5
-`
+```
 
 ##  Annotations
 The parameter $H$ is the center point coordinates of the optic disc, so $H$ is different in each fundus image. We get this parameter using [another project](https://doi.org/10.1016/j.compbiomed.2023.106796) of our team. 
