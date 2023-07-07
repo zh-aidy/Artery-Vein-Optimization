@@ -16,8 +16,7 @@ Artery-Vein-Optimization
 │  │  │  └─ image_vessel_correct.png
 │  │  ├─ orig
 │  │  │  ├─ 5126_image.png
-│  │  │  ├─ 5126_mask.png
-│  │  │  └─ CY-BIT.zip
+│  │  │  └─ 5126_mask.png
 │  │  └─ pred_result_cnn
 │  │     ├─ 5126_pred_label.png
 │  │     └─ 5126_pred_vessel.png
@@ -66,8 +65,11 @@ The prediction results in `pred_result_cnn` folder are obtained by training the 
 ) password: tljf
 
 * CY-BIT
-[https://pan.baidu.com/s/1pfE6ykJafO18o-F9RfLHOA](https://pan.baidu.com/s/1pfE6ykJafO18o-F9RfLHOA 
-) password: hlk4
+  [https://pan.baidu.com/s/1pfE6ykJafO18o-F9RfLHOA](https://pan.baidu.com/s/1pfE6ykJafO18o-F9RfLHOA 
+  ) password: hlk4
+
+  you can download the dataset from [https://pan.baidu.com/s/1jSQ5Zbqj8sCGhocNLdp0pw](https://pan.baidu.com/s/1jSQ5Zbqj8sCGhocNLdp0pw)
+  password: hfmw 
 
 # Run
 You can run the demo according to following code:
